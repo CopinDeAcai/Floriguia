@@ -12,14 +12,15 @@ header{
 }
 
 header div.head{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
-    flex: 1 0 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    align-content: center;
+    height: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+header div.head img{
+    height: 3rem;
 }
 
 header div.navbar{
